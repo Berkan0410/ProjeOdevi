@@ -1,0 +1,18 @@
+Ana Pencere: Bu pencere en üst düzey pencere. Burada bir menü var ve kullanıcı bu menü üzerinden çeşitli işlemler yapabilir.
+
+Enstrümanları Görüntüle: Bu düğmeye tıklandığında, goster_enstrumanlar fonksiyonu çağrılır ve enstrümanların bir listesi etiket üzerinde görüntülenir.
+Sipariş Ver: Bu düğmeye tıklandığında, siparis_ver_dialog_ac fonksiyonu çağrılır ve bir sipariş verme ile ilgili bir diyalog kutusu açılır.
+Destek Talebi Oluştur: Bu düğmeye tıklandığında, destek_talebi_dialog_ac fonksiyonu çağrılır ve bir destek talebi oluşturma ile ilgili bir diyalog kutusu açılır.
+Çıkış: Bu düğmeye tıklandığında, uygulama kapanır.
+Sipariş Ver Dialog: Bu diyalog kutusu, müşterinin sipariş bilgilerini girmesi için bir form sunar.
+
+Müşteri Adı: Müşterinin adını girmek için bir metin kutusu.
+Enstrüman Adı: Sipariş edilen enstrümanın adını girmek için bir metin kutusu.
+Miktar: Sipariş edilen miktarı girmek için bir metin kutusu.
+Adres: Siparişin teslim edileceği adresi girmek için bir metin kutusu.
+Sipariş Ver: Bu düğmeye tıklandığında, girilen bilgiler ana pencerede bir etiket olarak gösterilir ve bu diyalog kutusu kapanır.
+Destek Talebi Dialog: Bu diyalog kutusu, kullanıcının destek talebi detaylarını girmesi için bir form sunar.
+
+Destek Talebi Detayları: Destek talebinin detaylarını girmek için bir metin kutusu.
+Destek Talebi Oluştur: Bu düğmeye tıklandığında, girilen destek talebi detayları ana pencerede bir etiket olarak gösterilir ve bu diyalog kutusu kapanır.
+Destek Talebi Pencere: Bu pencere, kullanıcının oluşturduğu destek talebi detaylarını gösterir. Bu pencere, kullanıcının talebi hakkında bilgi sahibi olmasını sağlar.
