@@ -1,0 +1,34 @@
+
+Başlangıç
+Uygulamayı çalıştırdıktan sonra etkinlikleri görüntüleyebilir ve bilet satın alabilirsiniz. İşte adım adım nasıl kullanacağınız:
+
+1. Uygulamanın Açılması
+Uygulamayı açmak için uygulama dosyasını çalıştırın. Ana pencere açılacaktır ve burada etkinlikleri görüntüleyebilir ve bilet satın alabilirsiniz.
+2. Etkinlikleri Gösterme
+Etkinliklerin listesini görmek için aşağıdaki adımları izleyin:
+
+Etkinlikleri Göster butonuna tıklayın.
+Etkinlikler listesi ekranda görüntülenecektir. Her etkinlik için adı, tarihi, mekanı ve kalan bilet miktarı görüntülenir.
+3. Bilet Satın Alma
+Bir etkinliğe bilet satın almak için aşağıdaki adımları izleyin:
+
+Etkinlikleri Göster butonuna tıklayın ve listeden bir etkinlik seçin.
+Bilet Satın Al butonuna tıklayın.
+Açılan pencerede, almak istediğiniz bilet miktarını girin ve "Tamam" butonuna tıklayın.
+Seçilen etkinliğin kalan bilet miktarı otomatik olarak güncellenecektir.
+Bilet satın alma işlemini tamamlamak için gerekli bilgileri girin:
+Adınız: Adınızı girin ve "Tamam" butonuna tıklayın.
+Telefon Numaranız: Telefon numaranızı girin ve "Tamam" butonuna tıklayın.
+E-mail Adresiniz: E-mail adresinizi girin ve "Tamam" butonuna tıklayın.
+Satın alma işlemi başarılı olduğunda, ekranda "Bilet Alıcı Bilgileri" görüntülenecektir ve bir bilgi kutusu ile kaç adet bilet satın aldığınızı belirten bir mesaj gösterilecektir.
+Uyarılar
+Etkinlik Seçimi: Bilet satın almak için öncelikle bir etkinlik seçmeniz gerekmektedir. Eğer etkinlik seçmezseniz, bir uyarı mesajı alırsınız.
+Bilet Miktarı: Satın almak istediğiniz bilet miktarını girerken, etkinliğin kalan bilet miktarına dikkat edin.
+Örnek Kullanım
+Etkinlikleri Göster butonuna tıklayın.
+Listeden "Konser" etkinliğini seçin.
+Bilet Satın Al butonuna tıklayın.
+Almak istediğiniz bilet miktarını girin, örneğin 2.
+Adınızı, telefon numaranızı ve e-mail adresinizi girin.
+Ekranda bilet alıcı bilgileri ve satın aldığınız bilet miktarına dair bir mesaj görüntülenecektir.
+Uygulamayı verimli kullanmanız için tüm adımları takip edin ve etkinliklerinizi rahatça yönetin!
