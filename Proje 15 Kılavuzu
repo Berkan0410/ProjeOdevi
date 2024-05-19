@@ -1,0 +1,42 @@
+Başlangıç
+Uygulamayı çalıştırdıktan sonra mevcut kitapları görüntüleyebilir, kitap okuyabilir, kitaplar hakkında yorum yapabilir ve okuma listenizi görüntüleyebilirsiniz. İşte adım adım nasıl kullanacağınız:
+
+1. Uygulamanın Açılması
+Uygulamayı çalıştırmak için uygulama dosyasını çalıştırın. Ana pencere açılacaktır ve burada kitapları görüntüleyebilir ve çeşitli işlemler yapabilirsiniz.
+2. Kitapları Görüntüleme
+Mevcut kitapları görüntülemek için aşağıdaki adımları izleyin:
+
+Kitapları Görüntüle butonuna tıklayın.
+Mevcut kitaplar ekranda listelenecektir. Her kitap için adı, yazarı ve yayınevi listelenecektir.
+3. Kitap Okuma
+Bir kitabı okumak için aşağıdaki adımları izleyin:
+
+Kitapları Görüntüle butonuna tıklayın ve listeden bir kitap seçin.
+Kitap Oku butonuna tıklayın.
+Seçilen kitap için bir bilgi mesajı görüntülenecektir ve kitap okuma listenize eklenecektir.
+4. Yorum Yapma
+Bir kitap hakkında yorum yapmak için aşağıdaki adımları izleyin:
+
+Kitapları Görüntüle butonuna tıklayın ve listeden bir kitap seçin.
+Yorum Yap butonuna tıklamadan önce yorumunuzu girmek için giriş alanına (yorum metni kutusuna) yorumunuzu yazın.
+Yorum Yap butonuna tıklayın.
+Seçilen kitap için bir bilgi mesajı görüntülenecektir ve yorumunuz kaydedilecektir.
+5. Okuma Listesini Görüntüleme
+Okuma listenizi görmek için aşağıdaki adımları izleyin:
+
+Okuma Listesini Görüntüle butonuna tıklayın.
+Okuma listeniz bir bilgi mesajı olarak görüntülenecektir.
+Uyarılar
+Kitap Seçimi: Kitap okuma veya yorum yapma işlemlerini gerçekleştirmeden önce bir kitap seçmeniz gerekmektedir. Eğer kitap seçmezseniz, bir uyarı mesajı alırsınız.
+Yorum Metni: Yorum yapmadan önce yorum metnini yazmayı unutmayın.
+Örnek Kullanım
+Kitapları Görüntüle butonuna tıklayın.
+Listeden bir kitap seçin, örneğin "1984".
+Kitap Oku butonuna tıklayın.
+Bir bilgi mesajı görüntülenir ve "1984" kitabı okuma listenize eklenir.
+Yorum metni kutusuna bir yorum yazın, örneğin "Harika bir kitap!".
+Yorum Yap butonuna tıklayın.
+Bir bilgi mesajı görüntülenir ve "1984" kitabı hakkında yorumunuz kaydedilir.
+Okuma Listesini Görüntüle butonuna tıklayın.
+Okuma listeniz bir bilgi mesajı olarak görüntülenir.
+Bu adımları takip ederek kitapları rahatça okuyabilir ve yorum yapabilirsiniz! Uygulamayı kullanırken karşılaşabileceğiniz herhangi bir sorunu çözmek için yukarıdaki uyarılara dikkat edin.
