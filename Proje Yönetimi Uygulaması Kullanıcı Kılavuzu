@@ -1,0 +1,68 @@
+
+Tabii ki! İşte proje yönetimi uygulamasını kullanacak kişi için adım adım bir kılavuz:
+
+Proje Yönetimi Uygulaması Kullanıcı Kılavuzu
+Başlangıç
+Uygulamayı çalıştırdıktan sonra projeleri görüntüleyebilir, yeni projeler ve görevler oluşturabilir, görevleri çalışanlara atayabilir ve ilerlemeyi kaydedebilirsiniz. İşte adım adım nasıl kullanacağınız:
+
+1. Uygulamanın Açılması
+Uygulamayı çalıştırmak için uygulama dosyasını çalıştırın. Ana pencere açılacaktır ve burada projeleri görüntüleyebilir ve çeşitli işlemler yapabilirsiniz.
+2. Projeleri Gösterme
+Projelerin listesini görmek için aşağıdaki adımları izleyin:
+
+Projeleri Göster butonuna tıklayın.
+Projeler listesi ekranda görüntülenecektir. Her proje için adı listelenecektir.
+3. Yeni Proje Oluşturma
+Yeni bir proje oluşturmak için aşağıdaki adımları izleyin:
+
+Proje Oluştur butonuna tıklayın.
+Açılan pencerede, proje adını girin ve "Tamam" butonuna tıklayın.
+Başlangıç tarihini girin ve "Tamam" butonuna tıklayın.
+Bitiş tarihini girin ve "Tamam" butonuna tıklayın.
+Proje başarıyla oluşturulduğunda, bir bilgi kutusu görüntülenecektir.
+Projeleri tekrar göstermek için Projeleri Göster butonuna tıklayın.
+4. Görev Oluşturma
+Bir proje için yeni bir görev oluşturmak için aşağıdaki adımları izleyin:
+
+Projeleri Göster butonuna tıklayın ve listeden bir proje seçin.
+Görev Oluştur butonuna tıklayın.
+Açılan pencerede, görev adını girin ve "Tamam" butonuna tıklayın.
+Sorumlu kişinin adını girin ve "Tamam" butonuna tıklayın. Eğer çalışan listede yoksa, yeni bir çalışan olarak eklenir.
+Görev başarıyla oluşturulduğunda, bir bilgi kutusu görüntülenecektir.
+5. Görevi Çalışana Atama
+Bir görevi bir çalışana atamak için aşağıdaki adımları izleyin:
+
+Projeleri Göster butonuna tıklayın ve listeden bir proje seçin.
+Görevi Çalışana Ata butonuna tıklayın.
+Açılan pencerede, görev adını girin ve "Tamam" butonuna tıklayın.
+Çalışanın adını girin ve "Tamam" butonuna tıklayın. Eğer çalışan listede yoksa, yeni bir çalışan olarak eklenir.
+Görev başarıyla atandığında, bir bilgi kutusu görüntülenecektir.
+6. İlerleme Kaydetme
+Bir görev için ilerlemeyi kaydetmek için aşağıdaki adımları izleyin:
+
+Projeleri Göster butonuna tıklayın ve listeden bir proje seçin.
+İlerleme Kaydet butonuna tıklayın.
+Açılan pencerede, görev adını girin ve "Tamam" butonuna tıklayın.
+İlerleme miktarını (hafta) girin ve "Tamam" butonuna tıklayın.
+İlerleme başarıyla kaydedildiğinde, bir bilgi kutusu görüntülenecektir.
+7. Görevleri Gösterme
+Bir proje için görevlerin listesini görmek için aşağıdaki adımları izleyin:
+
+Projeleri Göster butonuna tıklayın ve listeden bir proje seçin.
+Görevleri Göster butonuna tıklayın.
+Seçilen proje için görevler bir bilgi kutusunda görüntülenecektir.
+Uyarılar
+Proje Seçimi: Herhangi bir işlem yapmadan önce bir proje seçmeniz gerekmektedir. Eğer proje seçmezseniz, bir uyarı mesajı alırsınız.
+Görev ve Çalışan Bilgileri: Görev ve çalışan bilgilerini girerken dikkatli olun ve doğru bilgileri girdiğinizden emin olun.
+Örnek Kullanım
+Projeleri Göster butonuna tıklayın.
+Listeden bir proje seçin, örneğin "Proje A".
+Görev Oluştur butonuna tıklayın.
+Görev adını girin, örneğin "Görev 1" ve "Tamam" butonuna tıklayın.
+Sorumlu kişinin adını girin, örneğin "Ahmet" ve "Tamam" butonuna tıklayın.
+Görev başarıyla oluşturulduğunda, bir bilgi kutusu görüntülenecektir.
+Görevi Çalışana Ata butonuna tıklayın.
+Görev adını girin, örneğin "Görev 1" ve "Tamam" butonuna tıklayın.
+Çalışanın adını girin, örneğin "Mehmet" ve "Tamam" butonuna tıklayın.
+Görev başarıyla atandığında, bir bilgi kutusu görüntülenecektir.
+Uygulamayı verimli kullanmanız için tüm adımları takip edin ve projelerinizi rahatça yönetin!
