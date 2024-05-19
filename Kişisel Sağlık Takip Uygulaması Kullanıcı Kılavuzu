@@ -1,0 +1,58 @@
+
+Başlangıç
+Uygulamayı çalıştırdıktan sonra aşağıdaki adımları izleyerek sağlığınızı ve egzersizlerinizi takip edebilirsiniz.
+
+1. Kullanıcı Oluşturma
+İlk olarak, sağlığınızı ve egzersizlerinizi takip etmek için bir kullanıcı oluşturmanız gerekir.
+
+İsim: İsminizi girin.
+Yaş: Yaşınızı girin.
+Cinsiyet: Cinsiyetinizi girin (E/K).
+İlgili alanları doldurduktan sonra "Kullanıcı Oluştur" butonuna tıklayın. Kullanıcı başarıyla oluşturulduğunda, rapor alanında kullanıcı bilgileri görüntülenecektir.
+
+2. Egzersiz Rutini Oluşturma
+Bir kullanıcı oluşturduktan sonra egzersiz rutini ekleyebilirsiniz.
+
+Egzersiz Rutini Oluştur butonuna tıklayın. Bir diyalog kutusu açılacaktır.
+Egzersiz İsmi: Egzersiz ismini girin.
+Süre (dakika): Egzersizin süresini girin.
+Tekrar Sayısı: Egzersizin tekrar sayısını girin.
+Diyalog kutusundaki "OK" butonuna tıklayarak egzersizi ekleyin. Eklenen egzersiz rapor alanında görüntülenecektir.
+
+3. Sağlık Kaydı Ekleme
+Sağlık durumunuzu takip etmek için sağlık kaydı ekleyebilirsiniz.
+
+Sağlık Kaydı Ekle butonuna tıklayın. Bir diyalog kutusu açılacaktır.
+Tarih: Kaydın tarihini (YYYY-MM-DD formatında) girin.
+Kilo (kg): Kilonuzu girin.
+Boy (cm): Boyunuzu girin.
+Sigara içiyor mu?: Sigara içip içmediğinizi belirtin (E/H).
+Diyalog kutusundaki "OK" butonuna tıklayarak sağlık kaydını ekleyin. Eklenen kayıt rapor alanında görüntülenecektir.
+
+4. Hatırlatıcı Ekleme
+Egzersiz yapmayı hatırlamak için hatırlatıcı ekleyebilirsiniz.
+
+Hatırlatıcı Ekle butonuna tıklayın. Bir giriş kutusu açılacaktır.
+Hatırlatıcı zamanı: Hatırlatıcının saatini (HH:MM formatında) girin.
+Hatırlatıcı zamanı geldiğinde bir bildirim alacaksınız.
+
+5. Sağlık Verileri Grafiği Gösterme
+Sağlık kayıtlarınızın grafiksel bir temsilini görmek için grafikleri görüntüleyebilirsiniz.
+
+Sağlık Verileri Grafiği Göster butonuna tıklayın.
+Açılan pencerede sağlık verilerinizin grafiği görüntülenecektir.
+Rapor Alanı
+Rapor alanında tüm sağlık kayıtlarınız ve egzersiz rutinleriniz görüntülenir. Bu alan, eklediğiniz tüm bilgileri takip etmenizi sağlar.
+
+Notlar
+Kullanıcı oluşturulmadan önce egzersiz veya sağlık kaydı eklenemez.
+Hatırlatıcı eklemek için tarih ve saat formatına dikkat edin (HH:MM).
+Egzersiz ve sağlık kayıtlarını ekledikten sonra, bilgilerinizi düzenli olarak güncelleyerek sağlığınızı daha iyi takip edebilirsiniz.
+Uygulamayı verimli kullanmanız için tüm adımları takip edin ve düzenli olarak bilgilerinizi güncelleyerek sağlıklı bir yaşam sürdürün!
+
+
+
+
+
+
+
