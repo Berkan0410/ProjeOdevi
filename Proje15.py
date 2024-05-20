@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QListWidget, QLineEdit, QMessageBox, QLabel
 
 class Kitap:
-    def _init_(self, isim, yazar, yayınevi):
+    def __init__(self, isim, yazar, yayınevi):
         self.isim = isim
         self.yazar = yazar
         self.yayınevi = yayınevi
@@ -24,7 +24,7 @@ class Kitap:
         print(f"Kitap '{self.isim}' hakkında yorumunuz alındı: {yorum_metni}")
 
 class Kullanıcı:
-    def _init_(self, isim, şifre):
+    def __init__(self, isim, şifre):
         self.isim = isim
         self.şifre = şifre
         self.okuma_listesi = []
@@ -36,7 +36,7 @@ class Kullanıcı:
         kitap.yorum_yap(yorum_metni, self)
 
 class Yorum:
-    def _init_(self, metin, kullanıcı):
+    def __init__(self, metin, kullanıcı):
         self.metin = metin
         self.kullanıcı = kullanıcı
 
@@ -47,8 +47,8 @@ yorumlar = []
 
 # Arayüz sınıfı
 class MainWindow(QWidget):
-    def _init_(self):
-        super()._init_()
+    def __init__(self):
+        super().__init__()
         self.init_ui()
 
     def init_ui(self):
@@ -131,8 +131,8 @@ kitaplar.append(Kitap("Tutunamayanlar", "Oğuz Atay", "İletişim Yayınları"))
 kitaplar.append(Kitap("Sefiller","Victor Hugo","Can Yayınevi"))
 kullanıcılar.append(Kullanıcı("Berkan Koç", "010810"))
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec_()) 
