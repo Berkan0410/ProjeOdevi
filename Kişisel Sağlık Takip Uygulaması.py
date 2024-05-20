@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton,
-    QTextEdit, QDialog, QDialogButtonBox, QMessageBox, QInputDialog, QFormLayout
+    QTextEdit, QDialog, QDialogButtonBox, QMessageBox, QInputDialog, QFormLayout,
+    QCalendarWidget
 )
 from PyQt5.QtCore import QTimer
 
@@ -58,8 +59,9 @@ class KayitDialog(QDialog):
 
         self.form_layout = QFormLayout()
 
-        self.input_tarih = QLineEdit()
-        self.form_layout.addRow("Tarih (YYYY-MM-DD):", self.input_tarih)
+        self.calendar_widget = QCalendarWidget(self)
+        self.calendar_widget.setGridVisible(True)
+        self.form_layout.addRow("Tarih:", self.calendar_widget)
 
         self.input_kilo = QLineEdit()
         self.form_layout.addRow("Kilo (kg):", self.input_kilo)
@@ -80,11 +82,11 @@ class KayitDialog(QDialog):
         self.setLayout(self.layout)
 
     def get_kayit(self):
-        tarih = self.input_tarih.text()
+        selected_date = self.calendar_widget.selectedDate().toString("yyyy-MM-dd")
         kilo = self.input_kilo.text()
         boy = self.input_boy.text()
         sigara = self.input_sigara.text()
-        return SağlıkKaydı(tarih, kilo, boy, sigara)
+        return SağlıkKaydı(selected_date, kilo, boy, sigara)
 
 class EgzersizDialog(QDialog):
     def __init__(self, parent=None):
@@ -156,7 +158,8 @@ class MainWindow(QWidget):
         self.button_grafik_goster = QPushButton("Sağlık Verileri Grafiği Göster")
         self.button_grafik_goster.clicked.connect(self.grafik_goster)
 
-        self.text_rapor = QTextEdit()
+        self.button_ilerleme_kaydet = QPushButton("İlerleme Kaydet")
+        self.button_ilerleme_kaydet.clicked.connect(self.ilerleme_kaydet)
 
         self.layout.addWidget(self.label_isim)
         self.layout.addWidget(self.input_isim)
@@ -169,6 +172,9 @@ class MainWindow(QWidget):
         self.layout.addWidget(self.button_kayit_olustur)
         self.layout.addWidget(self.button_hatirlatici)
         self.layout.addWidget(self.button_grafik_goster)
+        self.layout.addWidget(self.button_ilerleme_kaydet)
+
+        self.text_rapor = QTextEdit()
         self.layout.addWidget(self.text_rapor)
 
         self.setLayout(self.layout)
@@ -246,6 +252,26 @@ class MainWindow(QWidget):
             grafik_dialog.exec_()
 
             plt.close(fig)
+
+    def ilerleme_kaydet(self):
+        if not self.kullanici:
+            QMessageBox.warning(self, "Uyarı", "Lütfen önce bir kullanıcı oluşturun!")
+            return
+
+        hafta, ok = QInputDialog.getInt(self, "Hafta Seç", "Kaydı yapılacak haftayı girin:")
+        if ok:
+            kilo, ok = QInputDialog.getDouble(self, "Güncel Kilo", "Lütfen güncel kilonuzu girin (kg):")
+            if ok:
+                boy, ok = QInputDialog.getDouble(self, "Güncel Boy", "Lütfen güncel boyunuzu girin (cm):")
+                if ok:
+                    tarih_baslangic = datetime.datetime.now().date() - datetime.timedelta(days=datetime.datetime.now().date().weekday()) + datetime.timedelta(weeks=hafta-1)
+                    tarih_son = tarih_baslangic + datetime.timedelta(days=6)
+                    tarih = f"{tarih_baslangic.strftime('%Y-%m-%d')} - {tarih_son.strftime('%Y-%m-%d')}"
+                    sigara, ok = QInputDialog.getText(self, "Sigara Durumu", "Sigara içiliyor mu? [E/H]:")
+                    if ok:
+                        kayit = SağlıkKaydı(tarih, kilo, boy, sigara)
+                        self.kullanici.kayıt_ekle(kayit)
+                        self.text_rapor.append(f"Haftalık Sağlık Kaydı Eklendi: {kayit}")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
